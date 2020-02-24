@@ -34,7 +34,7 @@
         width: 500px;
         max-width: 100%;
     }
-    .services_row > div{
+    .services_item{
         width: 200px;
         height: 200px;
     }
@@ -259,7 +259,7 @@
         line-height: 140%;
         max-width: 400px;
     }
-    .services_row > div{
+    .services_item{
         width: 150px;
         height: 150px;
         margin-top: 30px;
@@ -410,6 +410,13 @@
     }
     .menu .close_btn,.menu_lang{
         top: 30px;
+    }
+    .services_row > div{
+        width: 50%;
+    }
+    .services_item{
+        width: 120px;
+        height: 120px;
     }
 }
 // .menu .li_transform{

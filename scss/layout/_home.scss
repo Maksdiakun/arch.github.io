@@ -264,7 +264,11 @@ text-transform: uppercase;
   justify-content: center;
   height: 100%;
   width: 100%;
-  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2); 
+    width: 282px;
+    height: 282px;
+    margin-top: 80px;
+  
   p{
     margin-top: 40px;
     font-weight: bold;
@@ -300,10 +304,11 @@ text-transform: uppercase;
   &_row{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     >div{
-      width: 282px;
-      height: 282px;
-      margin-top: 80px;
+      width: 33%;
+      display: flex;
+      justify-content: center;
     }
   }
   .transparent_btn{
@@ -872,5 +877,8 @@ line-height: 29px;
   display: none;
 }
 .menu{
+  overflow: hidden;
+}
+.seo_block {
   overflow: hidden;
 }
