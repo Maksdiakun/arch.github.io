@@ -554,5 +554,7 @@ header .container-fluid > div:last-child { font-size: 24px; line-height: 29px; l
   .calc_steps > div span img { width: 10px; }
   .menu { min-height: unset; padding-top: 100px; height: 100vh; }
   .menu .close_btn, .menu_lang { top: 30px; } }
-
+  .seo_block {
+    overflow: hidden;
+  }
 /*# sourceMappingURL=style.css.map */
