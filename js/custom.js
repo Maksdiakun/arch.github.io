@@ -149,4 +149,17 @@ $(document).ready(function () {
     $(inputs).keyup(function () {
         calcBtn(btn2, inputs);
     });
+    $(".seo_content").mCustomScrollbar({
+        theme: "minimal"
+    });
+
+    $(".side_nav li a").on("click", function (event) {
+        event.preventDefault();
+
+        var id = $(this).attr("href"),
+            top = $(id).offset().top;
+
+        $("body,html").animate({ scrollTop: top }, 1000);
+    });
 });
+
