@@ -53,3 +53,16 @@
 .all_proj .new_proj{
     padding-top: 0;
 }
+.filter_btns.active{
+    background-color: #EFC94F;
+    color: #000;
+    border: 1px solid #EFC94F;
+}
+.filter_btns:not(.active):hover{
+color: #EFC94F;
+}
+.done_proj_page{
+    .item_link_dsc p{
+        margin-bottom: 0;
+    }
+}

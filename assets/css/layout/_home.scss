@@ -111,7 +111,10 @@ text-transform: uppercase;
   @include main_btn;
   width: 550px;
   background: #EFC94F;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+  &:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
 }
 .first_view{
   position: relative;
@@ -120,6 +123,12 @@ text-transform: uppercase;
   padding-bottom: 120px;
   background-image: url('../img/fbg.png');
   background-size: cover;
+  .ornage_btn{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    &:hover{
+      box-shadow: none;
+    }
+  }
   &:after{
     @include after;
     left: 0;
@@ -883,4 +892,56 @@ line-height: 29px;
   overflow: hidden;
 }
 
+.calc_page{
+  background-color: #000;
+}
 
+.promo_page{
+  background-color: #fff;
+  color: #000;
+  padding-bottom:100px;
+  .bread_crumbs{
+    margin-bottom: 30px;
+  }
+  .section_title_sm{
+    margin-bottom: 40px;
+  }
+  p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 160%;
+  }
+    .promo_imgs{
+      justify-content: center;
+    }
+}
+.header_logo a img,.footer_logo_wrap a img{
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+.interesting_block{
+  transition: all 0.3s;
+&:hover{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+}
+.contacts_page_content a:hover{
+    color: #EFC94F;
+ 
+}
+.contacts_page_content{
+  form{
+    .ornage_btn{
+      cursor: pointer;
+      &:hover{
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+
+      }
+    }
+  }
+}
+.ornage_btn{
+  cursor: pointer;
+}
