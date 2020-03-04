@@ -1,0 +1,104 @@
+.services_page{
+    .first_view{
+        p{
+            position: relative;
+            color: #fff;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 160%;
+            z-index: 2;
+            margin-bottom: 30px;
+        }
+    }
+    &_content{
+        padding-top: 20px;
+    }
+}
+.services_page_table{
+    padding-top: 60px;
+    background-color: #F2F2F2;
+    margin-top: 40px;
+    ul{
+        margin-bottom: 70px;
+    }
+    li{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #4F4F4F;
+        padding: 12px 30px;
+        position: relative;
+        border-bottom: 1px solid #E0E0E0;
+        span:last-child{
+            display: block;
+            min-width: 102px;
+        }
+        &:after{
+            @include after;
+            left: 0;
+            top: calc(50% - 4px);
+            width: 8px;
+            height: 8px;
+            background: #BDBDBD;
+            transform: rotate(45deg);
+        }
+    }
+}
+.fnt_24{
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+.price_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    &_item{
+        display: flex;
+    
+    &_img{
+        position: relative;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+    &_text{
+        p{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 130%;  
+        color: #4F4F4F;
+        margin-bottom: 25px;
+        }
+        ul{
+            margin-bottom: 0;
+        }
+        li{
+            padding: 10px 30px;
+            border-bottom: none;
+            font-size: 14px;
+            line-height: 120%;
+        }
+    }
+}
+}
+.services_page_text_section{
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    p{
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 140%;
+    }
+    .fnt_24{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .ornage_btn{
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+}
