@@ -10,6 +10,9 @@
     }
 }
 @media(max-width:1599.9px){
+    .contacts_page_content form{
+        width: 550px;
+    }
     .slide .img_wrap{
         height: 500px;
     }
@@ -145,6 +148,10 @@
     }
 }
 @media(max-width:1450px){
+    .contacts_page_content form{
+        width: 500px;
+        padding: 80px 40px 46px 40px;
+    }
     .services_page_text_section{
         padding-top: 20px;
     }

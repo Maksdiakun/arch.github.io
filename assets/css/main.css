@@ -1951,6 +1951,65 @@ h3 {
     color: #FFFFFF;
     margin-bottom: 10px; }
 
+.contacts_page_content {
+  padding-bottom: 80px; }
+  .contacts_page_content > .container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between; }
+  .contacts_page_content form {
+    margin-top: -100px;
+    background-color: #fff;
+    padding: 90px 70px 56px 70px;
+    width: 600px;
+    position: relative;
+    z-index: 2; }
+    .contacts_page_content form input, .contacts_page_content form textarea {
+      width: 100%;
+      border-bottom: 1px solid #4F4F4F;
+      color: #000 !important;
+      height: 45px;
+      -webkit-appearance: initial;
+         -moz-appearance: initial;
+              appearance: initial;
+      margin-bottom: 30px;
+      font-size: 12px; }
+      .contacts_page_content form input::-webkit-input-placeholder, .contacts_page_content form textarea::-webkit-input-placeholder {
+        font-family: 'Montserrat';
+        font-size: 12px; }
+      .contacts_page_content form input::-moz-placeholder, .contacts_page_content form textarea::-moz-placeholder {
+        font-family: 'Montserrat';
+        font-size: 12px; }
+      .contacts_page_content form input:-ms-input-placeholder, .contacts_page_content form textarea:-ms-input-placeholder {
+        font-family: 'Montserrat';
+        font-size: 12px; }
+      .contacts_page_content form input::-ms-input-placeholder, .contacts_page_content form textarea::-ms-input-placeholder {
+        font-family: 'Montserrat';
+        font-size: 12px; }
+      .contacts_page_content form input::placeholder, .contacts_page_content form textarea::placeholder {
+        font-family: 'Montserrat';
+        font-size: 12px; }
+    .contacts_page_content form textarea {
+      height: auto; }
+  .contacts_page_content .ornage_btn {
+    background-color: #000;
+    color: #fff !important;
+    box-shadow: none; }
+
+.form_title {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.3em;
+  color: #000;
+  margin-bottom: 80px;
+  text-align: center; }
+
+.footer_contacts_page {
+  background-color: #181818; }
+
 @media (max-height: 750px) {
   .menu li {
     font-size: 28px;
@@ -1961,6 +2020,8 @@ h3 {
     left: -25px; } }
 
 @media (max-width: 1599.9px) {
+  .contacts_page_content form {
+    width: 550px; }
   .slide .img_wrap {
     height: 500px; }
   .directory_page .news_item_title {
@@ -2055,6 +2116,9 @@ h3 {
     font-size: 22px; } }
 
 @media (max-width: 1450px) {
+  .contacts_page_content form {
+    width: 500px;
+    padding: 80px 40px 46px 40px; }
   .services_page_text_section {
     padding-top: 20px; }
   .services_page .first_view p {

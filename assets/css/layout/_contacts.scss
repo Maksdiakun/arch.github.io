@@ -31,3 +31,53 @@
     margin-bottom: 10px;
     }
 }
+.contacts_page_content{
+    padding-bottom: 80px;
+    >.container{
+        display: flex;
+        justify-content: space-between;
+    }
+    form{
+        margin-top: -100px;
+        background-color: #fff;
+        padding: 90px 70px 56px 70px;
+        width: 600px; 
+        position: relative;
+        z-index: 2;
+        input,textarea{
+            width: 100%;
+            border-bottom: 1px solid #4F4F4F;
+            color: #000 !important;
+            height: 45px;
+            appearance: initial;
+            margin-bottom: 30px;
+            font-size: 12px;
+            &::placeholder{
+                font-family: 'Montserrat';
+                font-size: 12px;
+
+            }
+        }
+        textarea{
+            height: auto;
+        }
+    }
+    .ornage_btn{
+        background-color: #000;
+        color: #fff !important;
+        box-shadow: none;
+    }
+}
+.form_title{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    color: #000;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.footer_contacts_page{
+    background-color: #181818;
+}
