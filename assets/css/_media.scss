@@ -184,6 +184,12 @@
         max-width: 60%;
         margin: 0 auto;
     }
+    .single_proj_dscr_item p{
+        font-size: 14px;
+    }
+    .single_proj_dscr_item p:first-child{
+        font-size: 12px;
+    }
 }
 @media(max-width:1450px){
     .contacts_page_content form{
@@ -839,6 +845,11 @@
             text-align: left;
         }
     }
+    .sm_slider_wrap{
+        width: 100%;
+        overflow: hidden;
+        margin: 20px 0 ;
+      }
 }
 @media(max-width:500px){
     .items_row{

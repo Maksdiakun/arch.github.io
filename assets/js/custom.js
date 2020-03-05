@@ -220,7 +220,7 @@ $(document).ready(function () {
             {
                 breakpoint: 575.9,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 2.3,
                 }
             }
         ]

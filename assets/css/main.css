@@ -2346,7 +2346,11 @@ h3 {
     line-height: 25px; }
   .exit_popup_img {
     max-width: 60%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .single_proj_dscr_item p {
+    font-size: 14px; }
+  .single_proj_dscr_item p:first-child {
+    font-size: 12px; } }
 
 @media (max-width: 1450px) {
   .contacts_page_content form {
@@ -2814,7 +2818,11 @@ h3 {
     -webkit-box-pack: center;
             justify-content: center; }
     .price_section_item_text li {
-      text-align: left; } }
+      text-align: left; }
+  .sm_slider_wrap {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0; } }
 
 @media (max-width: 500px) {
   .items_row {
