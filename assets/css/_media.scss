@@ -10,6 +10,12 @@
     }
 }
 @media(max-width:1599.9px){
+    main{
+        padding-top: 80px;
+    }
+    .sticky{
+        top: 100px;
+    }
     .contacts_page_content form{
         width: 550px;
     }
@@ -255,6 +261,12 @@
     }
 }
 @media(max-width:1199.9px){
+    main{
+        padding-top: 0px;
+    }
+        header{
+            position: static;
+        }
     .contacts_page_content{
         padding-top: 30px;
     }

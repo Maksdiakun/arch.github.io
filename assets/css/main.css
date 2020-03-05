@@ -301,6 +301,9 @@ button {
   cursor: pointer;
   outline: none !important; }
 
+main {
+  padding-top: 120px; }
+
 textarea {
   resize: none; }
 
@@ -328,7 +331,13 @@ button {
 header {
   height: 120px;
   padding: 0 35px;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #000; }
   header .container-fluid {
     height: 100%; }
     header .container-fluid > div:last-child {
@@ -975,7 +984,7 @@ header {
 
 .sticky {
   position: fixed;
-  top: 30px; }
+  top: 140px; }
 
 .side_nav li.dark {
   color: #131313; }
@@ -2077,6 +2086,10 @@ h3 {
     left: -25px; } }
 
 @media (max-width: 1599.9px) {
+  main {
+    padding-top: 80px; }
+  .sticky {
+    top: 100px; }
   .contacts_page_content form {
     width: 550px; }
   .slide .img_wrap {
@@ -2248,6 +2261,10 @@ h3 {
     font-size: 20px !important; } }
 
 @media (max-width: 1199.9px) {
+  main {
+    padding-top: 0px; }
+  header {
+    position: static; }
   .contacts_page_content {
     padding-top: 30px; }
   .services_page .first_view p {
