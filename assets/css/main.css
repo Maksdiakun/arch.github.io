@@ -2066,7 +2066,9 @@ h3 {
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    -webkit-box-align: start;
+            align-items: flex-start; }
   .contacts_page_content form {
     margin-top: -100px;
     background-color: #fff;
