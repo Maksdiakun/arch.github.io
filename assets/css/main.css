@@ -2350,7 +2350,9 @@ h3 {
   .single_proj_dscr_item p {
     font-size: 14px; }
   .single_proj_dscr_item p:first-child {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .home_news .news_content {
+    background-size: 100% 500px; } }
 
 @media (max-width: 1450px) {
   .contacts_page_content form {
@@ -2549,6 +2551,8 @@ h3 {
     margin-bottom: 20px; } }
 
 @media (max-width: 767.9px) {
+  .home_news .news_content {
+    background-image: none; }
   .consult_popup form p {
     font-size: 22px; }
   .exit_popup {
