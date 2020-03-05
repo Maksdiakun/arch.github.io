@@ -74,6 +74,7 @@ button {
   display: flex;
   align-items: center;
 }
+
 header{
   height: 120px;
   padding: 0 35px;
@@ -183,6 +184,7 @@ text-transform: uppercase;
     }
   }
 }
+
 .section_title{
   position: relative;
   text-transform: uppercase;
@@ -766,7 +768,7 @@ color: #FFFFFF;
   height: 100vh;
   background-color: #000;
   font-family: 'Montserrat', sans-serif;
-  position: absolute;
+  position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
@@ -953,4 +955,16 @@ line-height: 29px;
 }
 .ornage_btn{
   cursor: pointer;
+}
+
+.lang_and_link{
+  >a{
+    display: block
+  }
+  >a:last-child{
+    margin-top: 30px;
+    &:hover{
+      color: #FE33B9;
+    }
+  }
 }

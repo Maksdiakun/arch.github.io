@@ -11,6 +11,11 @@
         position: relative;
         padding-left: 10px;
     }
+    >:first-child{
+        &:after{
+            display: none;
+        }
+    }
     >*{
         margin-right: 10px;
     }

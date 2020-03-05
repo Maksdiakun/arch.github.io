@@ -1,3 +1,21 @@
+var map;
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: 48.941852, lng: 24.739010 },
+        zoom: 15,
+    });
+    var marker = new google.maps.Marker({
+        position: { lat: 48.941852, lng: 24.739010 },
+        map: map,
+        icon: {
+            url: '/assets/img/mark.svg',
+            scaledSize: new google.maps.Size(30, 40),
+        }
+    });
+};
+
+
+
 $(document).ready(function () {
     $('input[type=tel]').mask('0(00) 000 00 00');
     $('select').styler();
@@ -212,5 +230,8 @@ $(document).ready(function () {
         $(this).parents('.testimonial_item').find(".testimonial_item_text").toggleClass('full');
     });
     $("#scene1").parallax();
+    $('.exit_popup_close').click(function () {
+        $('.exit_popup_wrap').css('display', 'none');
+    })
 });
 

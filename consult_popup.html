@@ -15,6 +15,71 @@
 </head>
 
 <body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade consult_popup_wrap" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content consult_popup">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="./assets/img/closee.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <p>
+                            БЕЗКОШТОВНА КОНСУЛЬТАЦІЯ Архітектора
+                        </p>
+                        <input type="text" placeholder="Ваше ім’я">
+                        <input type="text" placeholder="Номер телефону">
+                        <input class="ornage_btn" type="submit" value="НАДІСЛАТИ">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="exit_popup_wrap">
+        <div class="exit_popup_close">
+            <img src="./assets/img/close.svg" alt="">
+        </div>
+        <div class="exit_popup">
+            <div class="exit_popup_content">
+                <p class="exit_popup_title">
+                    Плануєте Будівництво?
+                </p>
+                <ul>
+                    <li>
+                        перелік необхідних документів
+                    </li>
+                    <li>
+                        штрафи за самобуд
+                    </li>
+                    <li>
+                        дозвільні органи
+                    </li>
+                </ul>
+                <p class="exit_popup_text">
+                    Все це та багато іншого в націй PDF інструкції
+                </p>
+                <div class="exit_popup_img">
+                    <img src="./assets/img/check.png" alt="">
+                </div>
+                <a href="" class="ornage_btn">
+                    <span>
+                        ДІЗНАТИСЯ БІЛЬШЕ
+                    </span>
+                </a>
+                <a href="" class="transparent_btn">
+                    <span>не цікавить</span>
+                </a>
+            </div>
+        </div>
+    </div>
     <header>
         <div class="container-fluid just_btwn align_center">
             <div class="align_center">
@@ -75,13 +140,14 @@
         </div>
     </div>
     <main class="contacts_page">
-        <div id="map" class="map">
+        <div class="map">
             <div class="bread_crumbs">
                 <a href="">Головна</a>
                 <span>
                     Контакти
                 </span>
             </div>
+            <img src="./assets/img/map.png" alt="">
         </div>
         <div class="contacts_page_content">
             <div class="container">
@@ -174,6 +240,9 @@
             </div>
         </section>
     </footer>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+    </button>
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
@@ -183,9 +252,6 @@
     <script src="assets/js/jquery.formstyler.min.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="assets/js/jquery.parallax.min.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFfyY6fdfuPLMEv78qcmIKMEYMlQ2aldg&callback=initMap"
-        type="text/javascript"></script>
     <script src="assets/js/custom.js"></script>
 </body>
 
